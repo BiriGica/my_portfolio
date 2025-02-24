@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    font-family: "Nunito", serif; 
+    color: #614d3d;
+    /*background-color:rgb(248, 240, 229);*/
+    font-weight: 400;
+}
+body a{
+    text-decoration:none;
+    color:#4c6d74
+}
+body a:hover{
+    color:antiquewhite
+}
+
+header{
+    background: linear-gradient(to right, #c5a274,#f3e1ba );
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#4c6d74;
+    border-radius: 10px;
+    position: relative;
+}
+
+nav a:hover {
+    color:#fffefd;
+    margin: 0, 20;
+
+}
+
+main {
+    padding: 20px;
+    text-align:center
+}
+
+
+#cabecalho {
+   
+    font-family: "Montserrat", serif;
+    color:#f0e3d3;
+    text-align:center;
+    margin-top: 35px;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    color:#fff3e2
+}
+
+h1 {
+    text-decoration: none;
+    padding: 25px;
+}
+
+/*Imagens!*/
+
+/*figure{
+    margin-bottom: 15px;
+    text-align:center;
+}
+figure img{
+    width: 550px;
+    height: auto;
+    border-radius: 5px;
+}*/
+
+.menu a{
+    background-color:#c5a274 ;
+    color:#f3e1ba;
+    padding: 5px 40px;
+}
+
+.menu a:hover{
+    background-color: #c5a274;
+    color:#614d3d
+}
+
+.main-container{
+    display:flex;
+    /*background-color:#dbc7ac;*/
+    gap: 20px;
+    max-width: 400px;
+    margin:20 auto;
+    flex-wrap:wrap;
+}
+.main-container h2 {
+    color:#12262b;
+    padding:20px;
+    font-weight: 450;
+}
+
+.main-container p{
+    color:rgb(26, 27, 31)
+}
+
+/*main-block*/
+.main-block{
+    background-color:#dbc7ac;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: center;
+    box-shadow:0 4px 6px;
+    align-items: center;
+    padding: 20px;
+ }
+
+.main-block a{
+    color:#4c6d74;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    padding: 5px 12px;
+    max-width: 150px;
+    transition: all 0.5s;
+}
+
+.main-block a:hover{
+    color:antiquewhite;
+    background-color:#daa432;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+}
+
+footer a{
+    color:#4c6d74;
+}
+
+footer a:hover{
+    color:#daa432;
+}
+
+/*"Volte ao topo*/
+#topo{
+    padding-top: 20px;
+}
+#topo a{
+    text-decoration: none;
+    color:#4c6d74
+}
+#topo a:hover{
+    color:rgb(218, 164, 50);
+}
+
+/*@media (max-width: 160px){
+    header img                        (Nota, não estou usando isso porque meu header é responsivo, já que não é uma 
+                                       imagem, mas sempre é bom saber =) )
+}*/
